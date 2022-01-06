@@ -86,16 +86,16 @@ span{
     border-radius: 10px;
 }
 .class-1{
-    background-image: linear-gradient(rgba(64, 177, 221, 0.685), rgba(179, 64, 173, 0.589), rgba(141, 55, 55, 0.514));
-    box-shadow: 5px 9px 10px rgb(189, 137, 196);
+    background-color: rgba(201, 211, 191, 0.87);
+    box-shadow: 5px 9px 10px rgb(57, 47, 58);
 }
 .class-2{
-    background-image: linear-gradient(rgba(172, 152, 152, 0.808), rgba(116, 243, 116, 0.651), rgb(77, 77, 124));
-    box-shadow: 5px 9px 10px rgb(102, 60, 81);
+    background-color: rgb(145, 243, 243);
+    box-shadow: 5px 9px 10px rgb(57, 47, 58);
 }
 .class-3{
-    background-image: linear-gradient(rgb(185, 173, 173), rgb(110, 202, 110), white);
-    box-shadow: 5px 9px 10px rgb(168, 211, 231);
+    background-color: rgb(213, 213, 248);
+    box-shadow: 5px 9px 10px rgb(57, 47, 58);
 }
 .second img{
     width: 50%;
