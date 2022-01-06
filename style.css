@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Spline+Sans&display=swap');
+
+                    /* CSS RESET  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* background-color: rgb(231, 184, 233); */
+}
+                    /* GLOBAL STYLE  */
+
+body{
+    background-image: linear-gradient(rgba(111, 70, 189, 0.836), rgb(183, 209, 243), rgba(143, 74, 85, 0.795));
+    /* background: linear-gradient(blue, pink); */
+}
+p{
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 3rem;
+   
+}
+
+span{
+    color: rgb(247, 170, 6)
+}
+
+            /* This style for first section  */
+
+#first-para{
+    display: flex;
+}
+ .item-1{
+    /* width: 50%; */
+    /* border: 1px solid gray; */
+    /* display: flex; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 22px;
+    margin-left: 100px;
+ }
+ .item-1 P{
+     margin-bottom: 10px;
+ }
+ .item-1 h2{
+     border-left: 3px solid rgb(116, 231, 22);
+     padding-left: 10px;
+     font-size: 1.7rem;
+ }
+ .item-2 img{
+     width: 50%;
+     margin-left: 90px;
+ }
+
+                     /* button style  */
+
+
+ .btn{
+     /* border: 1px solid grey; */
+     border-radius: 6px;
+     text-decoration: none;
+     padding: 2px 4px;
+     font-size: 1.2rem;
+     background-image: linear-gradient(rgb(158, 42, 42), rgb(169, 76, 206));
+     color: white;
+     /* margin-top: 28px; */
+ }
+ .btn:hover{
+     color: rgb(0, 0, 0);
+ }
+
+                                                /* SECOND SECTION STYLE */
+
+ #second-para{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.second{
+    /* border: 2px solid green; */
+    margin: 50px;
+    width: 30%;
+    height: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.class-1{
+    background-image: linear-gradient(rgba(64, 177, 221, 0.685), rgba(179, 64, 173, 0.589), rgba(141, 55, 55, 0.514));
+    box-shadow: 5px 9px 10px rgb(189, 137, 196);
+}
+.class-2{
+    background-image: linear-gradient(rgba(172, 152, 152, 0.808), rgba(116, 243, 116, 0.651), rgb(77, 77, 124));
+    box-shadow: 5px 9px 10px rgb(102, 60, 81);
+}
+.class-3{
+    background-image: linear-gradient(rgb(185, 173, 173), rgb(110, 202, 110), white);
+    box-shadow: 5px 9px 10px rgb(168, 211, 231);
+}
+.second img{
+    width: 50%;
+}
+
+                                    /*  THIRD SECTION STYLE  */
+
+#third{
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+img{
+    width: 30%;
+    padding-left: 50px;
+}
+.third-left{
+    width: 80%;
+    padding-left: 60px;
+}
+.third-left p{
+    margin-bottom: 33px;
+}
+
+                            /* FOURTH SECTOON STYLE  */
+
+.fourth{
+    display: flex;
+    margin-top: 200px;
+}
+.fourth-right{
+    padding:77px;
+}
+
+                             /* FIFTH SECTION STYLE */
+
+.fifth{
+    display: flex;
+    padding-left: 222px;
+    height: 40%;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+                             /* FOOTER SECTION STYLE  */
+                             
+footer{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+}
