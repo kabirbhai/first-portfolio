@@ -30,15 +30,37 @@ main {
 }
 #home {
   display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin-top: 30px;
 }
 .home-intro {
   font-family: "Raleway", sans-serif;
 }
 .home-intro h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
-.home-image {
-  border: 1px solid;
+.home-intro p {
+  padding-right: 500px;
+}
+.mission {
+  margin: 20px 0px;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  border-image-slice: 30%;
+}
+.mission-2022 {
+  color: orange;
+}
+
+.home-image img {
+  width: 300px;
+}
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid orange;
 }
 
 /* FOOTER SECTION STYLE  */
