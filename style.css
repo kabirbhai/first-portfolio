@@ -22,133 +22,23 @@ nav ul li a {
   text-decoration: none;
   color: black;
 }
-p {
-  font-size: 1.2rem;
-}
-h1 {
-  font-size: 3rem;
-}
 
-span {
-  color: rgb(247, 170, 6);
+/* ====================== Home section  */
+main {
+  max-width: 1280px;
+  margin: 0 auto;
 }
-
-/* This style for first section  */
-
-#first-para {
+#home {
   display: flex;
 }
-.item-1 {
-  /* width: 50%; */
-  /* border: 1px solid gray; */
-  /* display: flex; */
-  /* align-items: center; */
-  flex-direction: column;
-  margin: 22px;
-  margin-left: 100px;
+.home-intro {
+  font-family: "Raleway", sans-serif;
 }
-.item-1 P {
-  margin-bottom: 10px;
+.home-intro h1 {
+  font-size: 2rem;
 }
-.item-1 h2 {
-  border-left: 3px solid rgb(116, 231, 22);
-  padding-left: 10px;
-  font-size: 1.7rem;
-}
-.item-2 img {
-  width: 50%;
-  margin-left: 90px;
-}
-
-/* button style  */
-
-.btn {
-  /* border: 1px solid grey; */
-  border-radius: 6px;
-  text-decoration: none;
-  padding: 2px 4px;
-  font-size: 1.2rem;
-  background-image: linear-gradient(rgb(158, 42, 42), rgb(169, 76, 206));
-  color: white;
-  /* margin-top: 28px; */
-}
-.btn:hover {
-  color: rgb(0, 0, 0);
-}
-
-/* SECOND SECTION STYLE */
-
-#second-para {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-.second {
-  /* border: 2px solid green; */
-  margin: 50px;
-  width: 30%;
-  height: 300px;
-  padding-left: 10px;
-  border-radius: 10px;
-}
-.class-1 {
-  background-color: rgba(201, 211, 191, 0.87);
-  box-shadow: 5px 9px 10px rgb(57, 47, 58);
-}
-.class-2 {
-  background-color: rgb(145, 243, 243);
-  box-shadow: 5px 9px 10px rgb(57, 47, 58);
-}
-.class-3 {
-  background-color: rgb(213, 213, 248);
-  box-shadow: 5px 9px 10px rgb(57, 47, 58);
-}
-.second img {
-  width: 50%;
-}
-
-/*  THIRD SECTION STYLE  */
-
-#third {
-  margin-top: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-img {
-  width: 30%;
-  padding-left: 50px;
-}
-.third-left {
-  width: 80%;
-  padding-left: 60px;
-}
-.third-left p {
-  margin-bottom: 33px;
-}
-
-/* FOURTH SECTOON STYLE  */
-
-.fourth {
-  display: flex;
-  margin-top: 200px;
-}
-.fourth-right {
-  padding: 77px;
-}
-.fourth img {
-  padding: 60px;
-}
-
-/* FIFTH SECTION STYLE */
-
-.fifth {
-  display: flex;
-  padding-left: 222px;
-  height: 40%;
-  margin-top: 80px;
-  align-items: center;
-  justify-content: center;
+.home-image {
+  border: 1px solid;
 }
 
 /* FOOTER SECTION STYLE  */
